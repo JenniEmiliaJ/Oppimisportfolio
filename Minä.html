@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minä</title>
+    <link rel="stylesheet" href="oppimispotfoliotyyli.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="no-underline"><h1>Portfolio</h1></a>
+    </header>
+
+
+    <nav>
+        <div class="box">
+            <a href="Matkani.html" class="no-underline">Matkani</a>
+        </div>
+        <div class="box">
+            <a href="Minä.html" class="no-underline">Minä</a>
+        </div>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Kuka olen</h2>
+
+        <div class="row">
+            <div class="column"><img class="smaller-image" src="Profiilikuva.jpg" alt="Profiilikuva"></div>
+            <div class="column"><p>Olen Jenni Järvinen ja opiskelen IT-tradenomiksi Haaga-helian ammattikorkeakoulussa. 
+                Aloitin monimuoto-opinnot tammikuussa 2024. Olen taustaltani lähihoitaja, eli uusien asioiden äärellä.</p></div>
+          </div>
+        
+      </section>
+
+      <section>
+        <h2>Ota yhteyttä:</h2>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Etunimi</label>
+              <input type="text" id="fname" name="Etunimi" placeholder="Etunimesi">
+          
+              <label for="lname">Sukunimi</label>
+              <input type="text" id="lname" name="Sukunimi" placeholder="Sukunimesi">    
+              <label for="email">Sähköposti</label>
+              <input type="text" id="email" name="Sähköpostiosoite" placeholder="Sähköpostiosoitteesi">
+              <label for="subject">Viestisi</label>
+              <textarea id="subject" name="subject" placeholder="Kirjoita tähän viestisi c:" style="height:200px"></textarea>
+          
+              <input type="submit" value="Lähetä">
+          
+            </form>
+          </div>
+      </section>
+
+      <div id="page-container">
+        <div id="content-wrap">
+          <!-- all other page content -->
+        </div>
+
+    </main>
+
+    <footer><p>Jenni Järvinen 2024</p></footer>
+
+</body>
+</html>
