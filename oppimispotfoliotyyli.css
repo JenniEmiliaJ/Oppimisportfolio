@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Over+the+Rainbow&family=Overlock+SC&display=swap');
+
+/* Font Face Definitions */
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url('polku/tiedostoon/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Over the Rainbow";
+    font-style: normal;
+    font-weight: 400;
+    src: url('polku/tiedostoon/OverTheRainbow-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Overlock SC";
+    font-style: normal;
+    font-weight: 400;
+    src: url('polku/tiedostoon/OverlockSC-Regular.woff2') format('woff2');
+}
+
+#page-container {
+    position: relative;
+    min-height: 45vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+  main {
+    min-height: calc(100vh - 130px); /* Adjust the value as per your header and footer heights */
+    padding-bottom: 50px; /* Add some padding to ensure content doesn't stick to the bottom */
+}
+
+header {
+    background-image: url('otsikko2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    max-width: auto;
+    border: 1px solid #002060;
+    background-color: #C5D8F6;
+    background-size: cover; /* Asetetaan taustakuvan koko */
+    text-align: center;
+    padding: 100px; /* Muutetaan otsikon sisätilaa halutuksi */
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+
+body {
+    background-color: #B9C9F0;
+    border: 1px solid #C5D8F6;
+    width: 50%;
+    position: relative; /* Updated position property */
+    margin:auto; /* Center the body horizontally */
+}
+
+header h1 {
+    font-size: 90px;
+    text-align: center;
+    color: black;
+    font-family: "Over the Rainbow", cursive; /* Updated font family */
+    margin: 0px; /* Adjust spacing using margin */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Overlock SC", sans-serif; /* Updated font family */
+}
+
+
+.box {
+    border: 5px solid #B9C9F0;
+    padding: auto;
+    text-align: center;
+    font-size: 50px;
+    height: 80px;
+    background-color: #C5D8F6;
+}
+
+a:link, a:visited {
+    background-color: #C5D8F6;
+    color: #000C68;
+    display: inline-flexbox;
+}
+
+a:hover {
+    color:#D98713
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+section h2 {
+    font-family: "Overlock SC";
+    color: #000C68;
+    font-size: 40px;
+    position: relative;
+    
+}
+
+section p {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+
+section {
+    width: auto;
+    border: 1px solid #C5D8F6;
+    background-color: #C5D8F6;
+    padding: 40px;
+    height: 100%;
+}
+
+.smaller-image {
+    width: 90%;
+    border: 2px solid #002060;
+    border-radius: 4px;
+}
+
+.p {
+    font-family: "Montserrat" sans-serif;
+}
+
+.column {
+    float: inline-start;
+    width: 50%; /* Each column takes up 25% of the width */
+}
+
+
+.box {
+    width: 100%; /* Make the boxes take up full width of the column */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #183272;
+    color: #C5D8F6;
+  }
+
+footer p {
+    font-family: "Overlock SC";
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  .name {
+    font-family: "Montserrat" sans-serif;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #183272;
+    color: #C5D8F6;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Overlock SC"; 
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:#D98713;
+  }
+
+  input[type=text], textarea {
+    font-family: "Overlock SC";
+  }
+
+  input[type=text], select {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #B9C9F0;
+    padding: 20px;
+  }
+
+@media only screen and (max-width: 480px) {
+    head {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    header {
+        height: 60px;
+    }
+    header h1 {
+        font-size: 60px;
+    }
+    .column {
+    width: 100%;
+    }
+    .smaller-image {
+        width: 60%;
+        border: 2px solid #002060;
+        margin: auto;
+        }
+    .box {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 1030px) {
+    head {
+        width: 95%;
+    }
+    body {
+        width: 95%;
+    }
+    header {
+        height: 60px;
+    }
+    .smaller-image {
+    width: 80%;
+    border: 2px solid #002060;
+    margin: auto;
+    }
+    .column {
+    width: 100%;
+    }
+    header h1 {
+        font-size: 60px;
+    }
+    .box {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    head {
+        width: 70%;
+    }
+    body {
+        width: 70%;
+    }
+    header {
+        height: 100px;
+    }
+    header h1 {
+        font-size: 70px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+    head {
+        width: 50%;
+    }
+    body {
+        width: 50%;
+    }
+    header {
+        height: 150px;
+    }
+    header h1 {
+        font-size: 90px;
+    }
+}
