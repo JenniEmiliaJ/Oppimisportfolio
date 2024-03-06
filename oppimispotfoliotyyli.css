@@ -237,7 +237,7 @@ input[type=text], select, textarea {
         font-size: 40px;
     }
     section {
-        padding: 10px;
+        padding: 0px;
     }
 }
 
