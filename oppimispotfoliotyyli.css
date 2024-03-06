@@ -236,6 +236,9 @@ input[type=text], select, textarea {
     .box {
         font-size: 40px;
     }
+    section {
+        padding: 10px;
+    }
 }
 
 
