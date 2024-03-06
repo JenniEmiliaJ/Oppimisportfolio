@@ -213,16 +213,16 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (min-width: 200px) and (max-width: 480px) {
     body {
         width: 95%;
     }
     header {
         height: 70px;
-        padding: 100px;
+        padding: 90px;
     }
     header h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .column {
         width: 100%;
@@ -237,6 +237,12 @@ input[type=text], select, textarea {
     }
     section {
         padding: 0px;
+    }
+    section h2 {
+        font-family: "Overlock SC";
+        color: #000C68;
+        font-size: 30px;
+        position: relative;
     }
     .smaller-image {
         width: 80%;
@@ -260,7 +266,7 @@ input[type=text], select, textarea {
         width: 100%;
     }
     header h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .box {
         font-size: 40px;
