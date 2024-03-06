@@ -224,7 +224,7 @@ input[type=text], select, textarea {
         padding: 100px;
     }
     header h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .column {
         width: 100%;
@@ -250,7 +250,7 @@ input[type=text], select, textarea {
         width: 95%;
     }
     header {
-        height: 70px;
+        height: 60px;
         padding: 100px 0; /* Muokkaa otsikon sisätilaa */
     }
     .smaller-image {
