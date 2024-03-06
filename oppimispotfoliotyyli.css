@@ -220,7 +220,7 @@ input[type=text], select, textarea {
         width: 95%;
     }
     header {
-        height: 40px;
+        height: 100px;
         padding: 0px; /* Muokkaa otsikon sisätilaa */
     }
     header h1 {
